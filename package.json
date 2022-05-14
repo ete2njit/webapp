@@ -1,0 +1,60 @@
+{
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch",
+    "heroku-postbuild": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "jquery": "^3.2.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^16.14.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-google-login": "^5.1.22",
+    "socket.io-client": "^2.4.0"
+  },
+  "name": "project2-m3",
+  "description": "0. `git clone https://github.com/NJIT-CS490/project2-m3-ete2`  1. Install your stuff!       a) `npm install`       b) `pip install flask-socketio`       c) `pip install eventlet`       d) `npm install -g webpack`       e) `npm install --save-dev webpack`       f) `npm install socket.io-client --save`       g) `pip install python-dotenv`   h) `npm install --save-dev css-loader`   i) `pip install requests`   j) `npm install react-google-login`   k) `npm install react react-dom`   l) `pip install rfc3987` If you see any error messages, make sure you use `sudo pip` or `sudo npm`. If it says \"pip cannot be found\", run `which pip` and use `sudo [path to pip from which pip] install`",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NJIT-CS490/project2-m3-ete2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NJIT-CS490/project2-m3-ete2/issues"
+  },
+  "homepage": "https://github.com/NJIT-CS490/project2-m3-ete2#readme"
+}

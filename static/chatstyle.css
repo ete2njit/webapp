@@ -1,0 +1,12 @@
+.chat-box {
+    position: relative;
+    background: #222;
+    border-style: solid;
+    overflow-y: scroll;
+    height: 98%;
+}
+
+.input-box {
+    top: 98%;
+    width: 100%;
+}

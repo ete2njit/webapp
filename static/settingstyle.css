@@ -1,0 +1,22 @@
+.settings-window {    
+    
+    background: #DDD;
+    border-style: solid;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.settings-content {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.display-count {
+    position: absolute;
+    width: 75%;
+}
+
+.display-input {
+    position: absolute;
+    width: 20%;
+    left: 75%;
+}

@@ -1,0 +1,54 @@
+
+.message {
+    position: relative;
+    border-radius: 5px;
+    border-style: outset;
+    background-color: #EEE;
+}
+
+.other {
+    margin-bottom: 0.3%;
+    margin-top: 0.3%;
+    position: relative;
+    left: 1%;
+    width: 80%;
+}
+
+.bot {
+    margin-bottom: 0.3%;
+    margin-top: 0.3%;
+    position: relative;
+    left: 1%;
+    width: 80%;
+}
+
+.bot .author {
+    color: blue;
+}
+
+.own {
+    margin-bottom: 0.3%;
+    margin-top: 0.3%;
+    position: relative;
+    left: 19%;
+    width: 80%;
+}
+
+.profileimage {
+    height: 5px;
+    width: auto;
+}
+
+.author {
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+.profilepicture {
+    height: 30px;
+    width: auto;
+}
+
+.content {
+    margin-left: 2px;
+}

@@ -1,0 +1,11 @@
+.information-window {    
+    
+    background: #DDD;
+    border-style: solid;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.information-content {
+    margin: 10px;
+    overflow: hidden;
+}

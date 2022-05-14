@@ -1,0 +1,14 @@
+.login {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+
+.GoogleButton {
+    position: absolute;
+    top: 50%;
+    width: 300px;
+}
+
